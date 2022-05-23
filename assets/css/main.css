@@ -1,5 +1,10 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 main {
   position: relative;
+  background-color: #16003B;
 }
 
 main .name_outter {
@@ -13,12 +18,31 @@ main .name_outter {
 
 main .main_heading {
   font-size: 50px;
-  font-family: 'Anton', sans-serif;
-  color: #FFF;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: #16003B;
 }
 
 main .sub_heading {
   font-size: 40px;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  color: #16003B;
+}
+
+.about_section {
+  background-color: #16003B;
+  height: 100vh;
+  padding: 70px 0px;
+}
+
+.main_about_heading h2 {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.main_about_heading p {
+  font-size: 22px;
+  font-weight: 400;
   color: #FFF;
 }

@@ -59,13 +59,13 @@ canvas.addEventListener('mousewheel', function(e){
 }, false);
 
     
-// Function for create new start
+// Function for create new star
 function star(x,y,z){
     this.x = x;
     this.y = y;
     this.z = z;
     this.radius = radius;
-    this.color = "#3b88c1";
+    this.color = "#4D4C7D";
     starsIndex++;
     stars[starsIndex] = this;
     this.id = starsIndex;
@@ -116,7 +116,7 @@ for(s = 0; s < numStars; s++){
 // Function for animate canvas objects
 function animate(){
     requestAnimationFrame(animate);
-    c.fillStyle = "#141a1f";
+    c.fillStyle = "#E9D5CA";
     c.fillRect(0,0,innerWidth,innerHeight);
     
     for( var i in stars){
@@ -125,3 +125,9 @@ function animate(){
 }
 
 animate();
+
+
+
+
+
+// rocket js
