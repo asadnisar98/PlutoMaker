@@ -31,7 +31,6 @@ main .sub_heading {
 
 .about_section {
   background-color: #16003B;
-  height: 100vh;
   padding: 70px 0px;
 }
 
@@ -45,4 +44,68 @@ main .sub_heading {
   font-size: 22px;
   font-weight: 400;
   color: #FFF;
+}
+
+.list_reflections {
+  margin-top: 40px;
+}
+
+.list_reflections ul {
+  list-style: decimal;
+}
+
+.list_reflections ul li::marker {
+  font-size: 25px;
+  color: #FFF;
+}
+
+.list_reflections ul li .single_reflection h2 {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.list_reflections ul li .single_reflection p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9;
+  background-color: #16003B;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  color: #FFF;
+  font-weight: 700;
+  -webkit-transition: 250ms all ease-in;
+  transition: 250ms all ease-in;
+}
+
+.navbar-brand:hover {
+  color: #E9D5CA;
+}
+
+.navbar-nav .nav-link {
+  color: #FFF;
+  font-weight: 400;
+  font-size: 18px;
+  -webkit-transition: 250ms all ease-in;
+  transition: 250ms all ease-in;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #E9D5CA;
+}
+
+.navbar-nav .nav-link.active {
+  color: #E9D5CA;
 }

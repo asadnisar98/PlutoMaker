@@ -1,7 +1,6 @@
 
 .about_section {
     background-color: #16003B;
-    height: 100vh;
     padding: 70px 0px;
 }
 
@@ -19,3 +18,29 @@
     }
 
 } 
+
+.list_reflections {
+    margin-top: 40px;
+    ul {
+        list-style: decimal;
+        li {
+            &::marker {
+                font-size: 25px;
+                color: #FFF;
+            }
+            .single_reflection {
+                h2 {
+                    color: #FFF;
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 0px;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}

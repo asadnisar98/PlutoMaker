@@ -1,0 +1,36 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: #16003B;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 700;
+    transition: 250ms all ease-in;
+
+    &:hover {
+        color: #E9D5CA;
+    }
+}
+
+.navbar-nav {
+    .nav-link {
+        color: #FFF;
+        font-weight: 400;
+        font-size: 18px;
+        transition: 250ms all ease-in;
+        &:hover {
+            color: #E9D5CA;
+        }
+        }
+    .nav-link.active {
+        color: #E9D5CA;
+        }
+    
+}
